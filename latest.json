@@ -1,5 +1,5 @@
 {
-  "version": "2026-09-15-01",
+  "version": "2026-09-25-01",
   "files": {
     "offsets.hpp":    "offsets/offsets.hpp",
     "client_dll.hpp": "offsets/client_dll.hpp",
