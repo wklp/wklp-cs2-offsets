@@ -5,7 +5,7 @@
 #include <cstdint>
 
 namespace wklp_offsets {
-    constexpr std::ptrdiff_t m_Glow                    = 0xDE0;
+    constexpr std::ptrdiff_t m_Glow                    = 0xDE8;
     constexpr std::ptrdiff_t m_glowColorOverride       = 0x40;
     constexpr std::ptrdiff_t m_bGlowing                = 0x51;
     constexpr std::ptrdiff_t m_pCameraServices         = 0x1328;
