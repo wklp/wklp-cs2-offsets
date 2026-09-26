@@ -1,5 +1,5 @@
 // wklp cs2 offsets - general
-// generated: 2026-09-15
+// generated: 2026-09-26
 #pragma once
 #include <cstddef>
 #include <cstdint>
