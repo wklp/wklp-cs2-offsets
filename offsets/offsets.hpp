@@ -1,6 +1,6 @@
 // language: C++, MSVC
 // wklp cs2 offsets - general
-// generated: 2026-09-27
+// generated: 2026-09-29
 #pragma once
 #include <cstddef>
 #include <cstdint>
