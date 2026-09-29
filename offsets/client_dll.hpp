@@ -1,13 +1,13 @@
 // language: C++, MSVC
 // wklp cs2 offsets - client.dll
-// generated: 2026-09-27
+// generated: 2026-09-29
 #pragma once
 #include <cstddef>
 #include <cstdint>
 
 namespace cs2_dumper { namespace offsets { namespace client_dll {
     constexpr std::ptrdiff_t dwCSGOInput              = 0x2575BB0;   // ← ajouté
-    constexpr std::ptrdiff_t dwEntityList             = 0x27151A8;
+    constexpr std::ptrdiff_t dwEntityList             = 0x27151E8;
     constexpr std::ptrdiff_t dwLocalPlayerPawn        = 0x25606D8;
     constexpr std::ptrdiff_t dwLocalPlayerController  = 0x2537628;
     constexpr std::ptrdiff_t dwViewMatrix             = 0x2565A20;
