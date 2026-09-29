@@ -1,5 +1,5 @@
 // wklp cs2 offsets - buttons
-// generated: 2026-09-26
+// generated: 2026-09-29
 #pragma once
 #include <cstddef>
 #include <cstdint>
