@@ -1,6 +1,5 @@
 // language: C++, MSVC
-// wklp cs2 offsets - general
-// generated: 2026-09-29
+// 2026-10-01 16:12:23.061937900 UTC
 #pragma once
 #include <cstddef>
 #include <cstdint>
@@ -28,7 +27,7 @@ namespace wklp_offsets {
     constexpr std::ptrdiff_t m_hActiveWeapon           = 0x60;
     constexpr std::ptrdiff_t m_hMyWeapons              = 0x48;
     constexpr std::ptrdiff_t m_pAimPunchServices       = 0x1598;
-    constexpr std::ptrdiff_t m_iShotsFired             = 0x1EB4;   // ← ajouté
+    constexpr std::ptrdiff_t m_iShotsFired             = 0x1EB4;
     constexpr std::ptrdiff_t m_iClip1                  = 0x1928;
     constexpr std::ptrdiff_t m_flFlashMaxAlpha         = 0x150C;
     constexpr std::ptrdiff_t m_flFlashDuration         = 0x1510;
