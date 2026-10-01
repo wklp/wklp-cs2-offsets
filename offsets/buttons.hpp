@@ -1,4 +1,5 @@
-// 2026-10-01 16:12:23.061937900 UTC
+// wklp cs2 offsets - buttons
+// generated: 2026-10-01
 #pragma once
 #include <cstddef>
 #include <cstdint>
