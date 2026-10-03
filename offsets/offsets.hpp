@@ -1,5 +1,6 @@
 // wklp cs2 offsets - general
 // generated: 2026-10-01
+// updated: 2026-10-03 (offsets remplacés par dump a2x/cs2-dumper)
 #pragma once
 #include <cstddef>
 #include <cstdint>
