@@ -1,5 +1,5 @@
 // wklp cs2 offsets - general
-// generated: 2026-10-05
+// generated: 2026-10-01
 #pragma once
 #include <cstddef>
 #include <cstdint>
@@ -67,29 +67,9 @@ namespace wklp_offsets {
     constexpr std::ptrdiff_t m_MeshGroupMask           = 0x208;
     constexpr std::ptrdiff_t m_pDirtyModelData         = 0xD8;
     constexpr std::ptrdiff_t m_DirtyMeshGroupMask      = 0x10;
-    constexpr std::ptrdiff_t m_angEyeAngles            = 0x35F0;
-    constexpr std::ptrdiff_t m_iKills                  = 0x30;
-    constexpr std::ptrdiff_t m_iDeaths                 = 0x34;
-    constexpr std::ptrdiff_t m_hObserverTarget         = 0x4C;
-    constexpr std::ptrdiff_t m_iObserverMode           = 0x48;
-    constexpr std::ptrdiff_t m_iAccount                = 0x40;
-    constexpr std::ptrdiff_t m_pObserverServices       = 0x1308;
-    constexpr std::ptrdiff_t m_pInGameMoneyServices    = 0x818;
-    constexpr std::ptrdiff_t m_pActionTrackingServices = 0x828;
-    constexpr std::ptrdiff_t m_perRoundStats           = 0x40;
-    constexpr std::ptrdiff_t m_fireCount               = 0x1A48;
-    constexpr std::ptrdiff_t m_firePositions           = 0x1108;
-    constexpr std::ptrdiff_t m_iAssists                = 0x38;
-    constexpr std::ptrdiff_t m_iDamage                 = 0x3C;
-    constexpr std::ptrdiff_t m_iMVPs                   = 0x970;
-    constexpr std::ptrdiff_t m_hGroundEntity           = 0x530;
-    constexpr std::ptrdiff_t m_vSmokeDetonationPos     = 0x1378;
-    constexpr std::ptrdiff_t m_bSmokeVolumeDataReceived = 0x13A9;
-    constexpr std::ptrdiff_t m_bSmokeEffectSpawned     = 0x13AA;
-    constexpr std::ptrdiff_t m_iGlowType               = 0x30;
-    constexpr std::ptrdiff_t m_iGlowTeam               = 0x34;
-    constexpr std::ptrdiff_t m_nGlowRange              = 0x38;
-    constexpr std::ptrdiff_t m_nGlowRangeMin           = 0x3C;
-    constexpr std::ptrdiff_t m_flGlowTime              = 0x48;
-    constexpr std::ptrdiff_t m_flGlowStartTime         = 0x4C;
+    constexpr std::ptrdiff_t m_angEyeAngles = 0x35F0;
+    constexpr std::ptrdiff_t m_iKills = 0x30;
+    constexpr std::ptrdiff_t m_iDeaths = 0x34
+    constexpr std::ptrdiff_t m_hObserverTarget = 0x4C;
+    constexpr std::ptrdiff_t m_iObserverMode = 0x48
 }
