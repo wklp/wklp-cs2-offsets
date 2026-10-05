@@ -67,4 +67,5 @@ namespace wklp_offsets {
     constexpr std::ptrdiff_t m_MeshGroupMask           = 0x208;
     constexpr std::ptrdiff_t m_pDirtyModelData         = 0xD8;
     constexpr std::ptrdiff_t m_DirtyMeshGroupMask      = 0x10;
+    constexpr std::ptrdiff_t m_angEyeAngles = 0x35F0;
 }
