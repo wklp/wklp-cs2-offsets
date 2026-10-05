@@ -72,5 +72,4 @@ namespace wklp_offsets {
     constexpr std::ptrdiff_t m_iDeaths = 0x34
     constexpr std::ptrdiff_t m_hObserverTarget = 0x4C;
     constexpr std::ptrdiff_t m_iObserverMode = 0x48
-
 }
