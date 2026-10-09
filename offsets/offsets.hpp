@@ -1,5 +1,5 @@
 // wklp cs2 offsets - general
-// generated: 2026-10-05
+// generated: 2026-10-09
 #pragma once
 #include <cstddef>
 #include <cstdint>
@@ -32,7 +32,7 @@ namespace wklp_offsets {
     constexpr std::ptrdiff_t m_flFlashMaxAlpha         = 0x150C;
     constexpr std::ptrdiff_t m_flFlashDuration         = 0x1510;
     constexpr std::ptrdiff_t m_flFlashBangTime         = 0x14FC;
-    constexpr std::ptrdiff_t m_iIDEntIndex             = 0x36CC;
+    constexpr std::ptrdiff_t m_iIDEntIndex             = 0x36DC;
     constexpr std::ptrdiff_t m_nSmokeEffectTickBegin   = 0x1360;
     constexpr std::ptrdiff_t m_bDidSmokeEffect         = 0x1364;
     constexpr std::ptrdiff_t m_hActivePostProcessingVolume = 0x200;
@@ -67,7 +67,7 @@ namespace wklp_offsets {
     constexpr std::ptrdiff_t m_MeshGroupMask           = 0x208;
     constexpr std::ptrdiff_t m_pDirtyModelData         = 0xD8;
     constexpr std::ptrdiff_t m_DirtyMeshGroupMask      = 0x10;
-    constexpr std::ptrdiff_t m_angEyeAngles            = 0x35F0;
+    constexpr std::ptrdiff_t m_angEyeAngles            = 0x3600;
     constexpr std::ptrdiff_t m_iKills                  = 0x30;
     constexpr std::ptrdiff_t m_iDeaths                 = 0x34;
     constexpr std::ptrdiff_t m_hObserverTarget         = 0x4C;
