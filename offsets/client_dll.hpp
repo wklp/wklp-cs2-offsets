@@ -15,9 +15,4 @@ namespace cs2_dumper { namespace offsets { namespace client_dll {
     constexpr std::ptrdiff_t dwGameRules              = 0x2569378;
     constexpr std::ptrdiff_t dwPlantedC4              = 0x24CFB60;
     constexpr std::ptrdiff_t dwWeaponC4               = 0x24CE108;
-    constexpr std::ptrdiff_t dwPrediction             = 0x25697D0;
-    constexpr std::ptrdiff_t dwViewRender             = 0x256FB98;
-    constexpr std::ptrdiff_t dwGlobalVars             = 0x2234108;
-    constexpr std::ptrdiff_t dwGameEntitySystem       = 0x271EB28;
-    constexpr std::ptrdiff_t dwGameEntitySystem_highestEntityIndex = 0x2120;
 }}}
