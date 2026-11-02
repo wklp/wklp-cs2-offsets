@@ -1,110 +1,54 @@
-// wklp cs2 offsets - general (member offsets)
+// wklp cs2 offsets - general
 // generated: 2026-11-02
 #pragma once
 #include <cstddef>
 #include <cstdint>
 
 namespace wklp_offsets {
-    // C_BaseEntity
-    constexpr std::ptrdiff_t m_pGameSceneNode          = 0x330;
-    constexpr std::ptrdiff_t m_iHealth                 = 0x34C;
-    constexpr std::ptrdiff_t m_lifeState               = 0x354;
-    constexpr std::ptrdiff_t m_iTeamNum                = 0x3E7;
-    constexpr std::ptrdiff_t m_fFlags                  = 0x3F4;
-    constexpr std::ptrdiff_t m_vecVelocity             = 0x430;
-    constexpr std::ptrdiff_t m_hOwnerEntity            = 0x520;
-    constexpr std::ptrdiff_t m_hGroundEntity           = 0x530;
-
-    // C_BaseModelEntity
-    constexpr std::ptrdiff_t m_clrRender               = 0xCA0;
     constexpr std::ptrdiff_t m_Glow                    = 0xDE8;
-    constexpr std::ptrdiff_t m_vecViewOffset           = 0xF60;
-
-    // C_BasePlayerPawn / C_CSPlayerPawn
-    constexpr std::ptrdiff_t m_pWeaponServices         = 0x12F0;
-    constexpr std::ptrdiff_t m_pObserverServices       = 0x1308;
+    constexpr std::ptrdiff_t m_glowColorOverride       = 0x40;
+    constexpr std::ptrdiff_t m_bGlowing                = 0x51;
     constexpr std::ptrdiff_t m_pCameraServices         = 0x1328;
-    constexpr std::ptrdiff_t m_vOldOrigin              = 0x14A4;
-    constexpr std::ptrdiff_t m_flFlashBangTime         = 0x14FC;
-    constexpr std::ptrdiff_t m_flFlashMaxAlpha         = 0x150C;
-    constexpr std::ptrdiff_t m_flFlashDuration         = 0x1510;
-    constexpr std::ptrdiff_t m_pActionTrackingServices_Pawn = 0x1590;
-    constexpr std::ptrdiff_t m_pAimPunchServices       = 0x1598;
-    constexpr std::ptrdiff_t m_hHudModelArms           = 0x1DA8;
-    constexpr std::ptrdiff_t m_bIsScoped               = 0x1EA0;
-    constexpr std::ptrdiff_t m_bResumeZoom             = 0x1EA1;
-    constexpr std::ptrdiff_t m_iShotsFired             = 0x1EB8;
-    constexpr std::ptrdiff_t m_ArmorValue              = 0x1ED0;
-    constexpr std::ptrdiff_t m_bOldIsScoped            = 0x1EE0;
-    constexpr std::ptrdiff_t m_angEyeAngles            = 0x3600;
-    constexpr std::ptrdiff_t m_iIDEntIndex             = 0x36DC;
-
-    // CGameSceneNode / CSkeletonInstance
-    constexpr std::ptrdiff_t m_pOwner                  = 0x30;
-    constexpr std::ptrdiff_t m_pChild                  = 0x40;
-    constexpr std::ptrdiff_t m_pNextSibling            = 0x48;
-    constexpr std::ptrdiff_t m_modelState              = 0x140;
-    constexpr std::ptrdiff_t m_pDirtyModelData         = 0xD8;
-    constexpr std::ptrdiff_t m_MeshGroupMask           = 0x208;
-    constexpr std::ptrdiff_t m_DirtyMeshGroupMask      = 0x10;
-
-    // CCSPlayerController
-    constexpr std::ptrdiff_t m_pInGameMoneyServices    = 0x818;
-    constexpr std::ptrdiff_t m_pActionTrackingServices = 0x828;
-    constexpr std::ptrdiff_t m_sSanitizedPlayerName    = 0x878;
-    constexpr std::ptrdiff_t m_hPlayerPawn             = 0x92C;
-    constexpr std::ptrdiff_t m_iMVPs                   = 0x970;
-
-    // CSPerRoundStats_t
-    constexpr std::ptrdiff_t m_iKills                  = 0x30;
-    constexpr std::ptrdiff_t m_iDeaths                 = 0x34;
-    constexpr std::ptrdiff_t m_iAssists                = 0x38;
-    constexpr std::ptrdiff_t m_iDamage                 = 0x3C;
-    constexpr std::ptrdiff_t m_perRoundStats           = 0x40;
-
-    // CCSPlayerController_InGameMoneyServices
-    constexpr std::ptrdiff_t m_iAccount                = 0x40;
-
-    // CPlayer_WeaponServices
-    constexpr std::ptrdiff_t m_hMyWeapons              = 0x48;
-    constexpr std::ptrdiff_t m_hActiveWeapon           = 0x60;
-
-    // CPlayer_ObserverServices
-    constexpr std::ptrdiff_t m_iObserverMode           = 0x48;
-    constexpr std::ptrdiff_t m_hObserverTarget         = 0x4C;
-
-    // CCSPlayerBase_CameraServices
     constexpr std::ptrdiff_t m_iFOV                    = 0x298;
     constexpr std::ptrdiff_t m_iFOVStart               = 0x29C;
     constexpr std::ptrdiff_t m_flFOVRate               = 0x2A4;
     constexpr std::ptrdiff_t m_flLastShotFOV           = 0x2AC;
-
-    // CPlayer_CameraServices
+    constexpr std::ptrdiff_t m_fFlags                  = 0x3F4;
+    constexpr std::ptrdiff_t m_iHealth                 = 0x34C;
+    constexpr std::ptrdiff_t m_iTeamNum                = 0x3E7;
+    constexpr std::ptrdiff_t m_hPlayerPawn             = 0x92C;
+    constexpr std::ptrdiff_t m_vOldOrigin              = 0x14A4;
+    constexpr std::ptrdiff_t m_vecViewOffset           = 0xF60;
+    constexpr std::ptrdiff_t m_ArmorValue              = 0x1ED0;
+    constexpr std::ptrdiff_t m_vecVelocity             = 0x430;
+    constexpr std::ptrdiff_t m_sSanitizedPlayerName    = 0x878;
+    constexpr std::ptrdiff_t m_lifeState               = 0x354;
+    constexpr std::ptrdiff_t m_pWeaponServices         = 0x12F0;
+    constexpr std::ptrdiff_t m_hActiveWeapon           = 0x60;
+    constexpr std::ptrdiff_t m_hMyWeapons              = 0x48;
+    constexpr std::ptrdiff_t m_pAimPunchServices       = 0x1598;
+    constexpr std::ptrdiff_t m_iShotsFired             = 0x1EB8;
+    constexpr std::ptrdiff_t m_iClip1                  = 0x1928;
+    constexpr std::ptrdiff_t m_flFlashMaxAlpha         = 0x150C;
+    constexpr std::ptrdiff_t m_flFlashDuration         = 0x1510;
+    constexpr std::ptrdiff_t m_flFlashBangTime         = 0x14FC;
+    constexpr std::ptrdiff_t m_iIDEntIndex             = 0x36DC;
+    constexpr std::ptrdiff_t m_nSmokeEffectTickBegin   = 0x1360;
+    constexpr std::ptrdiff_t m_bDidSmokeEffect         = 0x1364;
     constexpr std::ptrdiff_t m_hActivePostProcessingVolume = 0x200;
-
-    // C_PostProcessingVolume
     constexpr std::ptrdiff_t m_flMinExposure           = 0x11A4;
     constexpr std::ptrdiff_t m_flMaxExposure           = 0x11A8;
     constexpr std::ptrdiff_t m_bExposureControl        = 0x11BD;
-
-    // C_BasePlayerWeapon
-    constexpr std::ptrdiff_t m_iClip1                  = 0x1928;
-
-    // CEntityInstance / CEntityIdentity
+    constexpr std::ptrdiff_t m_bIsScoped               = 0x1EA0;
+    constexpr std::ptrdiff_t m_bResumeZoom             = 0x1EA1;
+    constexpr std::ptrdiff_t m_bOldIsScoped            = 0x1EE0;
+    constexpr std::ptrdiff_t m_pGameSceneNode          = 0x330;
+    constexpr std::ptrdiff_t m_modelState              = 0x140;
     constexpr std::ptrdiff_t m_pEntity                 = 0x10;
     constexpr std::ptrdiff_t m_designerName            = 0x20;
-
-    // CGlowProperty
-    constexpr std::ptrdiff_t m_iGlowType               = 0x30;
-    constexpr std::ptrdiff_t m_iGlowTeam               = 0x34;
-    constexpr std::ptrdiff_t m_nGlowRange              = 0x38;
-    constexpr std::ptrdiff_t m_nGlowRangeMin           = 0x3C;
-    constexpr std::ptrdiff_t m_glowColorOverride       = 0x40;
-    constexpr std::ptrdiff_t m_flGlowTime              = 0x48;
-    constexpr std::ptrdiff_t m_flGlowStartTime         = 0x4C;
-    constexpr std::ptrdiff_t m_bGlowing                = 0x51;
-
-    // C_EconEntity / C_EconItemView / C_AttributeContainer / CAttributeList
+    constexpr std::ptrdiff_t m_clrRender               = 0xCA0;
+    constexpr std::ptrdiff_t OFF_PUNCH_PRED            = 0x50;
+    constexpr std::ptrdiff_t OFF_PUNCH_UNPRED          = 0xA4;
     constexpr std::ptrdiff_t m_AttributeManager        = 0x1290;
     constexpr std::ptrdiff_t m_Item                    = 0x50;
     constexpr std::ptrdiff_t m_AttributeList           = 0x208;
@@ -115,19 +59,37 @@ namespace wklp_offsets {
     constexpr std::ptrdiff_t m_nFallbackSeed           = 0x18AC;
     constexpr std::ptrdiff_t m_flFallbackWear          = 0x18B0;
     constexpr std::ptrdiff_t m_nFallbackStatTrak       = 0x18B4;
-
-    // C_SmokeGrenadeProjectile
-    constexpr std::ptrdiff_t m_nSmokeEffectTickBegin   = 0x1360;
-    constexpr std::ptrdiff_t m_bDidSmokeEffect         = 0x1364;
+    constexpr std::ptrdiff_t m_hHudModelArms           = 0x1DA8;
+    constexpr std::ptrdiff_t m_hOwnerEntity            = 0x520;
+    constexpr std::ptrdiff_t m_pChild                  = 0x40;
+    constexpr std::ptrdiff_t m_pNextSibling            = 0x48;
+    constexpr std::ptrdiff_t m_pOwner                  = 0x30;
+    constexpr std::ptrdiff_t m_MeshGroupMask           = 0x208;
+    constexpr std::ptrdiff_t m_pDirtyModelData         = 0xD8;
+    constexpr std::ptrdiff_t m_DirtyMeshGroupMask      = 0x10;
+    constexpr std::ptrdiff_t m_angEyeAngles            = 0x3600;
+    constexpr std::ptrdiff_t m_iKills                  = 0x30;
+    constexpr std::ptrdiff_t m_iDeaths                 = 0x34;
+    constexpr std::ptrdiff_t m_hObserverTarget         = 0x4C;
+    constexpr std::ptrdiff_t m_iObserverMode           = 0x48;
+    constexpr std::ptrdiff_t m_iAccount                = 0x40;
+    constexpr std::ptrdiff_t m_pObserverServices       = 0x1308;
+    constexpr std::ptrdiff_t m_pInGameMoneyServices    = 0x818;
+    constexpr std::ptrdiff_t m_pActionTrackingServices = 0x828;
+    constexpr std::ptrdiff_t m_perRoundStats           = 0x40;
+    constexpr std::ptrdiff_t m_fireCount               = 0x1A48;
+    constexpr std::ptrdiff_t m_firePositions           = 0x1108;
+    constexpr std::ptrdiff_t m_iAssists                = 0x38;
+    constexpr std::ptrdiff_t m_iDamage                 = 0x3C;
+    constexpr std::ptrdiff_t m_iMVPs                   = 0x970;
+    constexpr std::ptrdiff_t m_hGroundEntity           = 0x530;
     constexpr std::ptrdiff_t m_vSmokeDetonationPos     = 0x1378;
     constexpr std::ptrdiff_t m_bSmokeVolumeDataReceived = 0x13A9;
     constexpr std::ptrdiff_t m_bSmokeEffectSpawned     = 0x13AA;
-
-    // C_Inferno
-    constexpr std::ptrdiff_t m_firePositions           = 0x1108;
-    constexpr std::ptrdiff_t m_fireCount               = 0x1A48;
-
-    // Punch (legacy, unchanged)
-    constexpr std::ptrdiff_t OFF_PUNCH_PRED            = 0x50;
-    constexpr std::ptrdiff_t OFF_PUNCH_UNPRED          = 0xA4;
+    constexpr std::ptrdiff_t m_iGlowType               = 0x30;
+    constexpr std::ptrdiff_t m_iGlowTeam               = 0x34;
+    constexpr std::ptrdiff_t m_nGlowRange              = 0x38;
+    constexpr std::ptrdiff_t m_nGlowRangeMin           = 0x3C;
+    constexpr std::ptrdiff_t m_flGlowTime              = 0x48;
+    constexpr std::ptrdiff_t m_flGlowStartTime         = 0x4C;
 }
