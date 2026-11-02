@@ -1,24 +1,24 @@
 // wklp cs2 offsets - buttons
-// generated: 2026-10-15
+// generated: 2026-11-02
 #pragma once
 #include <cstddef>
 #include <cstdint>
 
 namespace cs2_dumper { namespace buttons {
-    constexpr std::ptrdiff_t attack        = 0x2233ED0;
-    constexpr std::ptrdiff_t attack2       = 0x2233F60;
-    constexpr std::ptrdiff_t back          = 0x22341A0;
-    constexpr std::ptrdiff_t duck          = 0x2234470;
-    constexpr std::ptrdiff_t forward       = 0x2234110;
-    constexpr std::ptrdiff_t jump          = 0x22343E0;
-    constexpr std::ptrdiff_t left          = 0x2234230;
-    constexpr std::ptrdiff_t lookatweapon  = 0x257B560;
-    constexpr std::ptrdiff_t reload        = 0x2233E40;
-    constexpr std::ptrdiff_t right         = 0x22342C0;
-    constexpr std::ptrdiff_t showscores    = 0x257B440;
-    constexpr std::ptrdiff_t sprint        = 0x2233DB0;
-    constexpr std::ptrdiff_t turnleft      = 0x2233FF0;
-    constexpr std::ptrdiff_t turnright     = 0x2234080;
-    constexpr std::ptrdiff_t use           = 0x2234350;
-    constexpr std::ptrdiff_t zoom          = 0x257B4D0;
+    constexpr std::ptrdiff_t attack        = 0x2237F50;
+    constexpr std::ptrdiff_t attack2       = 0x2237FE0;
+    constexpr std::ptrdiff_t back          = 0x2238220;
+    constexpr std::ptrdiff_t duck          = 0x22384F0;
+    constexpr std::ptrdiff_t forward       = 0x2238190;
+    constexpr std::ptrdiff_t jump          = 0x2238460;
+    constexpr std::ptrdiff_t left          = 0x22382B0;
+    constexpr std::ptrdiff_t lookatweapon  = 0x257F8A0;
+    constexpr std::ptrdiff_t reload        = 0x2237EC0;
+    constexpr std::ptrdiff_t right         = 0x2238340;
+    constexpr std::ptrdiff_t showscores    = 0x257F780;
+    constexpr std::ptrdiff_t sprint        = 0x2237E30;
+    constexpr std::ptrdiff_t turnleft      = 0x2238070;
+    constexpr std::ptrdiff_t turnright     = 0x2238100;
+    constexpr std::ptrdiff_t use           = 0x22383D0;
+    constexpr std::ptrdiff_t zoom          = 0x257F810;
 }}
