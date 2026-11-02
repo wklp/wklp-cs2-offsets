@@ -1,18 +1,23 @@
 // wklp cs2 offsets - client.dll
-// generated: 2026-10-15
+// generated: 2026-11-02
 #pragma once
 #include <cstddef>
 #include <cstdint>
 
 namespace cs2_dumper { namespace offsets { namespace client_dll {
-    constexpr std::ptrdiff_t dwCSGOInput              = 0x257B640;
-    constexpr std::ptrdiff_t dwEntityList             = 0x271A908;
-    constexpr std::ptrdiff_t dwLocalPlayerPawn        = 0x2565718;
-    constexpr std::ptrdiff_t dwLocalPlayerController  = 0x253CB78;
-    constexpr std::ptrdiff_t dwViewMatrix             = 0x256B020;
-    constexpr std::ptrdiff_t dwViewAngles             = 0x257BCC8;
-    constexpr std::ptrdiff_t dwGlowManager            = 0x2561EF0;
-    constexpr std::ptrdiff_t dwGameRules              = 0x25651D0;
-    constexpr std::ptrdiff_t dwPlantedC4              = 0x24CB3C0;
-    constexpr std::ptrdiff_t dwWeaponC4               = 0x24C9B30;
+    constexpr std::ptrdiff_t dwCSGOInput              = 0x257F980;
+    constexpr std::ptrdiff_t dwEntityList             = 0x271EB28;
+    constexpr std::ptrdiff_t dwLocalPlayerPawn        = 0x25698C8;
+    constexpr std::ptrdiff_t dwLocalPlayerController  = 0x25413F8;
+    constexpr std::ptrdiff_t dwViewMatrix             = 0x256F1D0;
+    constexpr std::ptrdiff_t dwViewAngles             = 0x2580008;
+    constexpr std::ptrdiff_t dwGlowManager            = 0x25660A0;
+    constexpr std::ptrdiff_t dwGameRules              = 0x2569378;
+    constexpr std::ptrdiff_t dwPlantedC4              = 0x24CFB60;
+    constexpr std::ptrdiff_t dwWeaponC4               = 0x24CE108;
+    constexpr std::ptrdiff_t dwPrediction             = 0x25697D0;
+    constexpr std::ptrdiff_t dwViewRender             = 0x256FB98;
+    constexpr std::ptrdiff_t dwGlobalVars             = 0x2234108;
+    constexpr std::ptrdiff_t dwGameEntitySystem       = 0x271EB28;
+    constexpr std::ptrdiff_t dwGameEntitySystem_highestEntityIndex = 0x2120;
 }}}
